@@ -1,0 +1,10 @@
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+hr{
+    border: none;
+    height: 12px; 
+    border-top: 10px solid rgb(10, 62, 173);
+}

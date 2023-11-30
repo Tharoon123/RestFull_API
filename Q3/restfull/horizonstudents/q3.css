@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(1, 46, 66);
+}
+h2{
+    color: chartreuse;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h3{
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+th{
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;    
+}
+
+td{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    
+}
+#subtopic{
+    color: gold;
+}

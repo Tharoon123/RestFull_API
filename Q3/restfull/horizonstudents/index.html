@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>
+            RESTFull Web Service API
+        </title>
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="q3.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h2>
+                        RESTFull API Web Web Service
+                    </h2>
+                    <table border="0" class="table table-striped">
+                        <tr>
+                            <th>Description</th>
+                            <th></th>
+                            <th>URL</th>
+                        </tr>
+                        <tr>
+                            <td colspan="3" id="subtopic">Use GET Method</td>
+                        </tr>
+                        <tr>
+                            <td>Display All Infomation</td>
+                            <td> -</td>
+                            <td><a href="http://localhost/restfull/horizonstudents/read.php">
+                                http://localhost/restfull/horizonstudents/read.php
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Specific Infomation</td>
+                            <td> -</td>
+                            <td>http://localhost/restfull/horizonstudents/read.php?idnum=<i>{enter ID Number}</i>
+                                <br>
+                                Example:- 
+                                <br>
+                                http://localhost/restfull/horizonstudents/read.php?idnum=5
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <h3>
+                        Use Post man Tool For Following
+                    </h3>
+                    <table border="0" class="table table-striped">
+                        <tr>
+                            <th>Description</th>
+                            <th></th>
+                            <th>URL</th>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="3" id="subtopic">Use POST Method</td>
+                        </tr>
+                        <tr>
+                            <td>Insert Data</td>
+                            <td> - </td>
+                            <td>
+                                http://localhost/restfull/horizonstudents/create.php<br>
+                                <i>Insert the values according to the API</i>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" id="subtopic">Use PUT Method</td>
+                        </tr>
+                        <tr>
+                            <td>Update Data</td>
+                            <td> - </td>
+                            <td>
+                                http://localhost/restfull/horizonstudents/update.php?idnum=<i>{enter ID Number}<br>
+                                <i>Insert the values To be UPDATED according to the API</i>
+                                <br>
+                                Example:- 
+                                <br>
+                                http://localhost/restfull/horizonstudents/read.php?idnum=5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" id="subtopic">Use DELETE Method</td>
+                        </tr>
+                        <tr>
+                            <td>Delete Data</td>
+                            <td> - </td>
+                            <td>
+                                http://localhost/restfull/horizonstudents/delete.php?idnum=<i>{enter ID Number to be DELETED}<br>
+                                <br>
+                                Example:- 
+                                <br>
+                                http://localhost/restfull/horizonstudents/read.php?idnum=5
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </body>
+</html>
